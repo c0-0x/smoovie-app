@@ -1,0 +1,133 @@
+# ============================================================
+# Smoovie - Flutter
+# ============================================================
+
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+flutter_*.png
+flutter_*.log
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Generated
+lib/generated_plugin_registrant.dart
+
+# ============================================================
+# SECRETS / ENVIRONMENT
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.env
+*.secret
+*.secrets
+
+secrets/
+private/
+credentials/
+
+# Local configuration containing secrets
+lib/config/secrets.dart
+lib/config/private_config.dart
+lib/secrets.dart
+
+# Supabase local secrets
+supabase/.env
+supabase/.env.*
+supabase/functions/.env
+supabase/functions/.env.*
+
+# Firebase / Google credentials
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase-adminsdk*.json
+service-account*.json
+
+# Android signing keys
+*.jks
+*.keystore
+key.properties
+android/key.properties
+
+# Certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# ============================================================
+# ANDROID
+# ============================================================
+
+android/.gradle/
+android/local.properties
+android/captures/
+android/**/GeneratedPluginRegistrant.java
+
+# ============================================================
+# iOS / macOS
+# ============================================================
+
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# ============================================================
+# WINDOWS / LINUX
+# ============================================================
+
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ============================================================
+# IDE
+# ============================================================
+
+.idea/
+*.iml
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Visual Studio
+.vs/
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ============================================================
+# Misc
+# ============================================================
+
+coverage/
+doc/api/
